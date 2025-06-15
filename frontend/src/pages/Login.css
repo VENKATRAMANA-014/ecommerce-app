@@ -1,0 +1,9 @@
+.login-container {
+  padding: 60px 0;
+  min-height: 80vh;
+}
+
+.login-container .card {
+  max-width: 500px;
+  margin: auto;
+}

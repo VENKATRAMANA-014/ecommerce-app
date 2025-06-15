@@ -1,0 +1,13 @@
+.add-product-container {
+  padding: 50px 0;
+  min-height: 80vh;
+}
+
+.add-product-container .card {
+  max-width: 600px;
+  margin: auto;
+}
+
+.add-product-container h2 {
+  font-weight: bold;
+}

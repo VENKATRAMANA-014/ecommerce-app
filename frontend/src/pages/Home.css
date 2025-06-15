@@ -1,0 +1,76 @@
+.home-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1512436991641-6745cdb1723f") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  animation: fadeInDown 1s ease-out;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.feature-box {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-section {
+  background: linear-gradient(135deg, #fff3cd, #f8f9fa);
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

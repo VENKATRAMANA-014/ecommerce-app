@@ -1,0 +1,12 @@
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.checkout-container .card {
+  max-width: 600px;
+}

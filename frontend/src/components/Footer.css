@@ -1,0 +1,9 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons a {
+  font-size: 18px;
+}
